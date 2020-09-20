@@ -1,6 +1,46 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
 }
-span{
-  color: green;
+.app{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+body {
+  background-color:#003366;
+}
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+.header h1{
+  color:#f8a028;
+}
+.header img{
+  border-radius: 5px;
+  opacity: 0.5;
+  box-shadow: rgba(0, 0, 0, 0.3);
+}
+.app__stats{
+  display: flex;
+  justify-content: space-between;
+  margin:10px;
+
+}
+/*responsive */
+@media (max-width:990px ) 
+{
+  .app{
+    flex-direction: column;
+    
+  }
+}
+.Left{
+  flex:0.9;
+}
+.Right{
+  margin:20px;
 }
