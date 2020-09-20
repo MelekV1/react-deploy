@@ -1,0 +1,27 @@
+.map{
+    height: 500px;
+    background-color: ivory;
+    padding: 1px;;
+    border-radius:5px;
+    margin:10px;
+    box-shadow: 0 0 8px -4px rgba(0,0,0,0.5);
+}
+.map .leaflet-container{
+    height : 100%;
+}
+.flag{
+  height: 80px;
+  width: 100%;
+  background-size: cover;
+  border-radius: 8px;
+}
+.flag img{
+  width:100px;
+}
+.popContainer{
+  width:150px;
+}
+.Confirmed,.Recovered,.Deaths{
+  font-size: 16px;
+  margin-top: 5px;
+}
