@@ -14,6 +14,7 @@ import { sortData ,prettyPrintStat} from "./util";
 import numeral from "numeral";
 import Map from "./Map";
 import "leaflet/dist/leaflet.css";
+import {Typography} from '@material-ui/core';
 
 const App = () => {
   const [country, setInputCountry] = useState("worldwide");
@@ -71,6 +72,7 @@ const App = () => {
   };
 
   return (
+    <React.Fragment>
     <div className="app">
       <div className="Left">
         <div className="header">
@@ -113,6 +115,8 @@ const App = () => {
             cases={prettyPrintStat(countryInfo.todayDeaths)}
             total={numeral(countryInfo.deaths).format("0.0a")}/>
         </div>
+        <img src="IEEESb.png"alt="" width="20%"/>
+
         <div className="Right">
         <Map
           countries={mapCountries}
@@ -131,6 +135,13 @@ const App = () => {
         </CardContent>
       </Card>
     </div>
+     <div className="footer">
+     <Typography variant="body1" component="h2">
+       Created by 
+       <a className="link" href="https://www.linkedin.com/in/malek-ammar-924551148/" target="_blank" rel="noopener noreferrer"> Malek Ammar</a>
+     </Typography>
+   </div>
+   </React.Fragment>
   );
 };
 

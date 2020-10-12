@@ -8,7 +8,14 @@
 }
 
 body {
-  background-color:#003366;
+  background: rgb(20,140,0);
+  background: radial-gradient(circle, rgba(20,140,0,1) 8%, rgba(255,255,255,1) 100%);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
 }
 .header {
   display: flex;
@@ -43,4 +50,21 @@ body {
 }
 .Right{
   margin:20px;
+}
+
+.footer{
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  color: black;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center ;
+  height: 120px ;
+}
+.link{
+  text-decoration: none;
+  color: #6b6ce6;
 }
