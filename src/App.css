@@ -54,7 +54,7 @@ body {
 
 .footer{
   text-align: center;
-  position: fixed;
+  position:static;
   left: 0;
   bottom: 0;
   color: black;
