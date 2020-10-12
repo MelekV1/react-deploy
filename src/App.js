@@ -147,8 +147,8 @@ const App = () => {
     </Typography>
     </div>
    <div className="footer">
-     <a href="https://www.facebook.com/IAS.ENIT"><img src="iaswhte.png" alt="" width="20%"/></a>
-     <a href="https://www.facebook.com/ieee.enit.sb"><img src="IEEESb.png" alt="" width="20%"/></a>
+     <a href="https://www.facebook.com/IAS.ENIT" target="_blank"><img src="iaswhte.png" alt="" width="20%"/></a>
+     <a href="https://www.facebook.com/ieee.enit.sb" target="_blank"><img src="IEEESb.png" alt="" width="20%"/></a>
    </div>
    </React.Fragment>
   );
