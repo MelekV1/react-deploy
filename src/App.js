@@ -135,17 +135,20 @@ const App = () => {
         </CardContent>
       </Card>
     </div>
-     <div className="footer">
-     <Typography variant="body1" component="h2">
-       Created by 
-       <a className="link" href="https://www.linkedin.com/in/malek-ammar-924551148/" target="_blank" rel="noopener noreferrer"> Malek Ammar</a>
-     </Typography>
-     </div>
+    <div className="footer">
+    <Typography variant="body1" component="h2">
+      Created by 
+      <a className="link" href="https://www.linkedin.com/in/malek-ammar-924551148/" target="_blank" rel="noopener noreferrer"> Malek Ammar</a>
+    </Typography>
+    </div>
+    <div className="footer">
+    <Typography variant="body1" component="h2">
+      In collaboration with
+    </Typography>
+    </div>
    <div className="footer">
-   <br/>
-     <span>In collaboration with</span>
      <a href="https://www.facebook.com/IAS.ENIT"><img src="iaswhte.png" alt="" width="20%"/></a>
-     <a href="https://www.facebook.com/IAS.ENIT"><img src="IEEESb.png" alt="" width="20%"/></a>
+     <a href="https://www.facebook.com/ieee.enit.sb"><img src="IEEESb.png" alt="" width="20%"/></a>
    </div>
    </React.Fragment>
   );
