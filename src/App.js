@@ -115,7 +115,7 @@ const App = () => {
             cases={prettyPrintStat(countryInfo.todayDeaths)}
             total={numeral(countryInfo.deaths).format("0.0a")}/>
         </div>
-        <img src="IEEESb.png"alt="" width="20%"/>
+       
 
         <div className="Right">
         <Map
@@ -139,7 +139,10 @@ const App = () => {
      <Typography variant="body1" component="h2">
        Created by 
        <a className="link" href="https://www.linkedin.com/in/malek-ammar-924551148/" target="_blank" rel="noopener noreferrer"> Malek Ammar</a>
+       in collaboration with 
      </Typography>
+     <img src="iaswhte.png"alt="" width="20%"/>
+     <img src="IEEESb.png" alt="" width="20%"/>
    </div>
    </React.Fragment>
   );
